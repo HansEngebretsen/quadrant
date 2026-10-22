@@ -37,29 +37,38 @@ A quick 2×2 matrix for sorting ideas. Drag items into quadrants, label the axes
 </tr>
 <tr valign="top">
 <td width="50%">
-<h3>Restyle from the icon</h3>
-<p>Click an item's icon to pick a size, a color, or one of over a hundred Material icons.</p>
+<h3>Share it as a link</h3>
+<p>Everything on the matrix is stored in the URL, so sharing is just copying a link. There's no account or database, and anyone who opens it sees exactly what you made.</p>
 </td>
 <td width="50%">
-<img src="demos/style.gif" alt="Restyle from the icon">
+<img src="demos/share.gif" alt="Share it as a link">
 </td>
 </tr>
 <tr valign="top">
 <td width="50%">
-<img src="demos/duplicate.gif" alt="Duplicate or delete by dragging">
+<img src="demos/style.gif" alt="Restyle from the icon">
 </td>
+<td width="50%">
+<h3>Restyle from the icon</h3>
+<p>Click an item's icon to pick a size, a color, or one of over a hundred Material icons.</p>
+</td>
+</tr>
+<tr valign="top">
 <td width="50%">
 <h3>Duplicate or delete by dragging</h3>
 <p>Hold Alt and drag to copy an item. Drag one off the matrix to delete it.</p>
 </td>
+<td width="50%">
+<img src="demos/duplicate.gif" alt="Duplicate or delete by dragging">
+</td>
 </tr>
 <tr valign="top">
 <td width="50%">
-<h3>Save versions, share a link</h3>
-<p>Press S or click save to keep a version in your history. Share copies a link with the whole matrix in the URL, with no account or database.</p>
+<img src="demos/save.gif" alt="Save versions, go back anytime">
 </td>
 <td width="50%">
-<img src="demos/save.gif" alt="Save versions, share a link">
+<h3>Save versions, go back anytime</h3>
+<p>Press S or click save to keep a version in your history. Open the history and pick an earlier one to bring it back.</p>
 </td>
 </tr>
 </table>

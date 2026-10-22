@@ -818,8 +818,19 @@ body.timeline-mode .horizontal-axis-line::after {
 .control-btn.copied,
 #history-list .copy-btn.copied {
     background-color: transparent;
-    color: #22c55e; /* A green success color */
+    color: #15803d; /* success green, ~5:1 on white */
+    font-weight: 600;
     width: 90px; /* Set a fixed width for the copied state */
+}
+
+html.dark .control-btn.copied,
+html.dark #history-list .copy-btn.copied {
+    color: #4ade80; /* lighter green for dark backgrounds */
+}
+
+html.outline-mode .control-btn.copied,
+html.outline-mode #history-list .copy-btn.copied {
+    color: var(--text-primary); /* black and white mode stays black and white */
 }
 
 .copied .material-symbols-outlined {
